@@ -1,15 +1,28 @@
 body {
   padding-top: 3.5rem;
+  height: 80%;
+}
+div col-md-3{
+  width: 500px;
+  height: 200px;
+  overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
 }
 
 .jumbotron{
   background-color: rgb(250, 102, 139);
 }
 
-.container2{
-  background-color:rgb(209, 135, 135);
-}
-
 .topo{
  color: rgb(255, 255, 255);
+ text-align: center;
+}
+
+.bg-dark {
+  background-color: rgb(143, 180, 156)!important;
+}
+
+.img-frente {
+  justify-content: flex-end;
+  padding: 8rem;
+  width: 100%;
 }
